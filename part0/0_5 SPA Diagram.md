@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
 actor user as User
 participant SPA as Browser
@@ -25,3 +26,4 @@ deactivate server
 Note right of SPA: SPA renders de Notes from the Server.
 
 SPA-->>user: User can see the Single Application Page.
+```

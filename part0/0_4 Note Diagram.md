@@ -1,3 +1,5 @@
+
+```mermaid
 sequenceDiagram
 actor user
 participant browser
@@ -33,3 +35,4 @@ deactivate server
 Note right of browser: Browser renders the new user note<br/>[{ "content": "New user note", "date": "11-09-2024" }, ... ]
 
 browser-->>user: User can see the new Note at the bottom of the page.
+```

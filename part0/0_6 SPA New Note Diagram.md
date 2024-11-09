@@ -1,4 +1,6 @@
+```mermaid
 sequenceDiagram
+
 actor user as User
 participant SPA as Browser
 participant server as Server
@@ -13,3 +15,4 @@ deactivate server
 Note right of SPA: Browser is not redirected,<br/> the markup now includes the new note<br/>{"content": "001 test","date": "2024-11-09T17:57:31.939Z"}
 
 SPA-->>user: User can see the new Note at the bottom of the page.
+```
